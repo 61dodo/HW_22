@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'HSSanTokki20-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405@1.0/HSSanTokki20-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freesentation-9Black';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Freesentation-9Black', Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #f14c8f;
+    font-family: 'HSSanTokki20-Regular', Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+    font-family: 'HSSanTokki20-Regular', Arial, sans-serif;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Freesentation-9Black', Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.result-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.result-item {
+    flex: 1;
+    background-color: #f1f1f1;
+    padding: 0px 10px 10px 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.result-item .fac-name {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'HSSanTokki20-Regular', Arial, sans-serif;
+    color: #00d26a;
+}
+
+.result-item .closeday {
+    color: #785dc8;
+}
+
+.result-item:hover {
+    background-color: #fff;
+}
+
+.filter-section {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.filter-section label {
+    flex: 1;
+}
+
+.filter-section select {
+    width: 100%;
+}
+
+.search-results {
+    margin-top: 20px;
+}
+
+.search-results ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.search-results li {
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.search-results li:hover {
+    background-color: #fbc1c1;
+}
